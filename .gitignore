@@ -1,0 +1,23 @@
+# All generated output (sim runs, reports, Vivado projects)
+build/
+
+# Vivado / XSIM artifacts (also created in the folder where you start Vivado)
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.backup.*
+webtalk*
+xvlog.*
+xvhdl.*
+xelab.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Personal Claude Code settings (shared ones stay in .claude/settings.json)
+.claude/settings.local.json

@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xrun:*)",
+      "Bash(make:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)"
+    ],
+    "ask": [
+      "Bash(git commit:*)",
+      "Edit(docs/spec.md)"
+    ],
+    "deny": [
+      "Bash(sudo:*)",
+      "Bash(rm -rf:*)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Read(**/*.lic)",
+      "Read(//opt/xilinx-license/**)",
+      "Read(~/.Xilinx/**)"
+    ]
+  },
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "600000",
+    "BASH_MAX_TIMEOUT_MS": "1800000"
+  }
+}

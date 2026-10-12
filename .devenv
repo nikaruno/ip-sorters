@@ -1,0 +1,4 @@
+# Which devenv image this project uses. Vivado version/license come from
+# ~/.config/devenv/machine.conf; uncomment to pin this project to a version:
+IMAGE=fpga
+# VIVADO_VER=2022.2
